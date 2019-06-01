@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.4.1'
+ruby '2.6.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.2'
@@ -14,7 +14,7 @@ gem 'draper', '~> 3.0.0'
 gem 'figaro', '~> 1.1.1'
 gem 'haml-rails', '~> 1.0.0'
 gem 'jbuilder', '~> 2.7.0'
-gem 'oj', '~> 2.17.5'
+gem 'oj', '~> 3.7.12'
 gem 'pg', '~> 0.18.2'
 gem 'pry-rails', '~> 0.3.6'
 gem 'puma', '~> 3.0'
@@ -62,3 +62,4 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: %i(mingw mswin x64_mingw jruby)
+gem 'mysql2'
